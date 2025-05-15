@@ -13,10 +13,14 @@
         android:theme="@style/Theme.DanceUniversity"
         tools:targetApi="31">
         <activity
-            android:name=".firstAppActivty.ResultActivity"
+            android:name=".firstAppActivty.toDoList.TodoActivity"
+            android:theme="@style/Theme.TodoApp"
             android:exported="false" />
         <activity
-            android:name=".firstAppActivty.IMCActivity"
+            android:name=".firstAppActivty.imcCalculator.IMCResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".firstAppActivty.imcCalculator.IMCActivity"
             android:exported="false" />
         <activity
             android:name=".firstAppActivty.FirstActivity"

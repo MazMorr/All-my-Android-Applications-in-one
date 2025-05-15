@@ -7,12 +7,13 @@
     android:layout_height="match_parent"
     android:background="@color/black"
     android:padding="20dp"
-    tools:context=".firstAppActivty.ResultActivity">
+    tools:context=".firstAppActivty.imcCalculator.IMCResultActivity">
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/resultTool"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="Tus Resultados"
         android:textColor="@color/gray"
         android:textSize="30sp"
@@ -41,24 +42,26 @@
 
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtResultCategory"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Normal"
+                tools:text="Normal"
                 android:textColor="@color/teal_200"
                 android:textSize="35sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/txtResult"
+                android:id="@+id/txtResultIMC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="100dp"
-                android:text="24.5"
+                tools:text="24.5"
                 android:textColor="@color/white"
                 android:textSize="70sp" />
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/txtResultExplanation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -69,7 +72,6 @@
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
-
     </androidx.cardview.widget.CardView>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -77,7 +79,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         android:text="Recalcular IMC"
         android:textColor="@color/white"
         android:textSize="20sp"

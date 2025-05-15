@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">MazMorr Practice</string>
-    <string name="hello_world">Hola MazMorr</string>
+    <string name="hello_world">Menú Principal</string>
+
+    <!-- IMC App -->
     <string name="calculadora">Calculadora de IMC</string>
     <string name="male">male</string>
     <string name="female">female</string>
+
+    <!-- Todo App -->
+    <string name="todo_title">Bienvenido MazMOrr</string>
+    <string name="todo_categories">Task Categories</string>
+    <string name="todo_tasks">Tasks</string>
+    <string name="todo_dialog_add_task">Añade la tarea</string>
+    <string name="todo_app_add_task">Añade la tarea</string>
+    <string name="business">Business</string>
+    <string name="personal">Personal</string>
+    <string name="others">Others</string>
 </resources>
